@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cityeduh/public_html/gitdemo/
+    - /bin/cp * $DEPLOYPATH
+   
